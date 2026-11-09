@@ -4,7 +4,7 @@
 python3 -m venv .venv 
 
 #activar ambiente virtual
-source .venv/bin/activate 
+vector_ret 
 
 #instalar librerias desde archivo requirements 
 pip3 install -r requirements.txt 
@@ -16,3 +16,9 @@ git status
 
 #agregar archivo
 git add {nombre_archivo}
+
+#confirmar cambios
+git commit -m "backup"
+
+#cargar cambios al repositorio 
+git push origin main
